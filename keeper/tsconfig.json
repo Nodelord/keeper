@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ES2021",             
+    "lib": ["ES2021", "DOM"],      
     "module": "CommonJS",
     "moduleResolution": "node",
     "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
+    "skipLibCheck": true,          // Keeps node_modules checks off
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"]
