@@ -9,8 +9,12 @@
     "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,          // Keeps node_modules checks off
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+
+    "useUnknownInCatchVariables": false,
+    "exactOptionalPropertyTypes": false
   },
   "include": ["src/**/*"]
 }
+
 
