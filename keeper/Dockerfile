@@ -1,5 +1,9 @@
 FROM node:20-alpine
 
+RUN pwd
+RUN ls -la /
+RUN ls -R .
+
 WORKDIR /app
 
 COPY package.json .
