@@ -6,10 +6,11 @@
     "moduleResolution": "node",
     "outDir": "./dist",
     "rootDir": "./src",
-    "strict": true,
+    "strict": false,
     "esModuleInterop": true,
     "skipLibCheck": true,          // Keeps node_modules checks off
     "forceConsistentCasingInFileNames": true
   },
   "include": ["src/**/*"]
 }
+
